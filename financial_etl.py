@@ -1,7 +1,3 @@
-"""
-Financial Metrics ETL & UI
-Author: Francisco Smurra
-"""
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -46,7 +42,7 @@ def execute_etl():
 # Ejecución del pipeline
 df_clean = execute_etl()
 
-st.title("📊 Consolidación Financiera (Automated ETL)")
+st.title("Consolidación Financiera (Automated ETL)")
 st.markdown('<hr style="border-color: rgba(255,255,255,0.1);">', unsafe_allow_html=True)
 
 # Layout de métricas
